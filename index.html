@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initaila scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Porfolio</title>
+    <script src="https://kit.fontawesome.com/5c9733a6aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           <a href="#about"><img src="images/Logo.png" class="logo"></a> 
+            <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <h1>Hi, I'm <span><a href="#about">Shivesh Hegde</a></span><br> From Mumbai</h1>
+            <a href="#contact"><div class="button">Lets Talk</div> </a>
+
+        </div>
+    </div>
+</div>
+<!--------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <a href="#header" ><img src="images/user.jpg"></a>
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle"><a href="#about">About Me</h1></a>
+                <p class="para">I am a student from SVKM's Shri Bhagubhai Mafatial Polytechnic currently pursuing Computer Science and Engineering, Second year diploma. Passionately pursuing opportunities to apply academic knowledge and practical skills in a professional setting. With a strong foundation in programming languages and a keen interest in emerging technologies</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('grades')">Grades</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <a href="#services">
+                        <li><span>Web Developer</span><br>Web Application Development</li>
+                        <li><span>Graphic Designer</span><br>Graphics Designing</li>
+                        <li><span>App Developer</span><br>App Designing</li></a>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <a href="https://sbmp.ac.in/Events/M__32"><li><span>2022</span><br>Participated In Enigma 2022</li></a>
+                        <a href="https://www.linkedin.com/company/mesh-digital-services/"><li><span>2023</span><br>Virtual Intern , MeSh Digital Services - Web Development</li></a>
+                        <a href="https://www.linkedin.com/company/prodigy-infotech/"><li><span>2024</span><br>Virtual Intern , Prodigy InfoTech - Web Development</li></a>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <a href="https://www.vibgyorhigh.com/"><li><span>2022</span><br>SSC From Vibgyor Malad, Mumbai</li></a>
+                        <a href="https://sbmp.ac.in/"><li><span>2024</span><br>Currently Pursuing 3rd Year At Shri Bhagubhai Mafatlal Polytechnic Of Diploma College , Mumbai</li></a>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="grades">
+                    <ul>
+                        <a><li><span>SSC</span><br>Percentage - 88.0%</li></a>
+                        <a><li><span>1st Year Diploma Engineering</span><br>1st Semester - 61.47%<br>2nd Semester - 54.82%</li></a>
+                        <a><li><span>2nd Year Diploma Engineering</span><br>3rd Semester - 53.88%<br>4th Semester - </li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"><a href="#services">My Services</a></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>We Make Wesite As Per Clients Need. Till Now We can Make High-Level Websites for CLients</p>
+                <a href="#contact"><button class="Learn">Learn More</button></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Java Designer</h2>
+                <p>We Make Projects for Clients Based On their Need</p>
+                <a href="#contact"><button class="Learn">Learn More</button></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Python Designer</h2>
+                <p>We Make Projects for Clients Based On their Need</p>
+                <a href="#contact"><button class="Learn">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------Portfolio----------------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title"><a href="#portfolio">My Projects</h1></a>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/Accessories.png">
+            <div class="layer">
+                <h3>Gaming Accessories Store</h3>
+                <p>You Can Easily Buy Your Favourite Products And Buy Then With One Click</p>
+                <a href="https://github.com/shiveshHegde"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Java.png">
+            <div class="layer">
+                <h3>Library Management System Using Java</h3>
+                <p>You Can Add, Remove, Display, Borrow & Return Books In Our Library Mangement System </p>
+                <a href="https://github.com/shiveshHegde"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Python.png">
+            <div class="layer">
+                <h3>Library Management System Using Python</h3>
+                <p>You Can Add, Remove, Display, Borrow & Return Books In Our Library Mangement System </p>
+                <a href="https://github.com/shiveshHegde"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#contact" class="btn">See More</a>
+</div>
+</div>
+<!-----------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><a href="#contact">Contact Me</a></h1>
+                <p><a href="mailto:your.ShiveshHegde45@gmail.com"><i class="fa-solid fa-paper-plane"></a></i><a href="mailto:your.ShiveshHegde45@gmail.com"><span>ShiveshHegde45@gmail.com</span></a></p>
+                <p><a href="tel:+917738785563"><i class="fa-solid fa-phone"></a></i><a href="tel:+917738785563"><span>7738785563</span></a></p>
+                <div class="social-icons">
+                    <a href="https://x.com/ShiveshHegde"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/roronora.shivesh/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shivesh-hegde-b166272b4/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/shiveshHegde"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Shivesh Resume.pdf" download class="btn btn2">Download My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" id="myForm">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" onclick="showAlert()" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shivesh Hegde. All Rights Reserved</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>    
+document.getElementById('myForm').addEventListener('submit', function(event) {
+            // Check if the form is valid
+            if (this.checkValidity()) {
+                event.preventDefault();  // Prevent form submission
+                alert('Message Sent Successfully. Please Wait For Our Side To Respond 😊🫶🏻❤️');  // Show alert box
+            } else {
+                // Optional: This part is not necessary as the browser will handle invalid form submission,
+                // but you can handle it if you need to customize the behavior.
+                event.preventDefault();
+                alert('Please fill in all required fields.');
+            }
+            form.reset();
+            location.reset();
+        });
+</script>
+</body>
+</html>
